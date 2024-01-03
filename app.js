@@ -7,6 +7,7 @@ updateTodoList();
 
 todoForm.addEventListener('submit', function(e){
     e.preventDefault();
+    console.log(allTodos);
     addTodo();
 })
 
